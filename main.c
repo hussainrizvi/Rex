@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     int col_number = 0;
     int arr[LINE_WIDTH] = {0};
 
-    printf("%12s", "");
+    printf("\n%12s", "");
     for (int i = 0; i < 16; i++)
         printf("%02X ", i);
     printf(" Decoded Text\n");
